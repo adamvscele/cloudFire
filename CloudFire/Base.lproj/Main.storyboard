@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Cloud Tab Bar Controller-->
         <scene sceneID="nGG-Dy-2s6">
             <objects>
-                <tabBarController id="UkB-Gk-s2A" sceneMemberID="viewController">
+                <tabBarController id="UkB-Gk-s2A" customClass="CloudTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="VWl-aQ-UGo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

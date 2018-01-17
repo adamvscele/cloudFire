@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221DA9EE200F5466005CFAA8 /* CloudTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221DA9ED200F5466005CFAA8 /* CloudTabBarController.m */; };
 		2243A097200F361500A9C031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A096200F361500A9C031 /* main.m */; };
 		2243A09A200F361500A9C031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A099200F361500A9C031 /* AppDelegate.m */; };
 		2243A09D200F361500A9C031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A09C200F361500A9C031 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221DA9EC200F5466005CFAA8 /* CloudTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTabBarController.h; sourceTree = "<group>"; };
+		221DA9ED200F5466005CFAA8 /* CloudTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTabBarController.m; sourceTree = "<group>"; };
 		2243A092200F361500A9C031 /* CloudFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2243A096200F361500A9C031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2243A098200F361500A9C031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221DA9EA200F539D005CFAA8 /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+				221DA9EB200F53BE005CFAA8 /* TabbarController */,
+			);
+			name = MainModel;
+			sourceTree = "<group>";
+		};
+		221DA9EB200F53BE005CFAA8 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				221DA9EC200F5466005CFAA8 /* CloudTabBarController.h */,
+				221DA9ED200F5466005CFAA8 /* CloudTabBarController.m */,
+			);
+			name = TabbarController;
+			sourceTree = "<group>";
+		};
 		2243A089200F361500A9C031 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +78,7 @@
 		2243A094200F361500A9C031 /* CloudFire */ = {
 			isa = PBXGroup;
 			children = (
+				221DA9EA200F539D005CFAA8 /* MainModel */,
 				2243A098200F361500A9C031 /* AppDelegate.h */,
 				2243A099200F361500A9C031 /* AppDelegate.m */,
 				2243A09B200F361500A9C031 /* ViewController.h */,
@@ -152,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2243A09D200F361500A9C031 /* ViewController.m in Sources */,
+				221DA9EE200F5466005CFAA8 /* CloudTabBarController.m in Sources */,
 				2243A09A200F361500A9C031 /* AppDelegate.m in Sources */,
 				2243A097200F361500A9C031 /* main.m in Sources */,
 			);
@@ -306,6 +328,7 @@
 				2243A0AB200F361500A9C031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
