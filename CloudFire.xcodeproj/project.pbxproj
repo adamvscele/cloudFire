@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		221DA9EE200F5466005CFAA8 /* CloudTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221DA9ED200F5466005CFAA8 /* CloudTabBarController.m */; };
+		221DA9F1200F5A1F005CFAA8 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221DA9F0200F5A1F005CFAA8 /* Discover.storyboard */; };
+		221DA9F4200F5B1F005CFAA8 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221DA9F3200F5B1F005CFAA8 /* DiscoverViewController.m */; };
 		2243A097200F361500A9C031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A096200F361500A9C031 /* main.m */; };
 		2243A09A200F361500A9C031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A099200F361500A9C031 /* AppDelegate.m */; };
 		2243A09D200F361500A9C031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A09C200F361500A9C031 /* ViewController.m */; };
 		2243A0A0200F361500A9C031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243A09E200F361500A9C031 /* Main.storyboard */; };
 		2243A0A2200F361500A9C031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2243A0A1200F361500A9C031 /* Assets.xcassets */; };
 		2243A0AD200F439E00A9C031 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2243A0AC200F439D00A9C031 /* Empty.xib */; };
+		2276A7192010371900100000 /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A7182010371900100000 /* HomepageViewController.m */; };
+		2276A71E2010397D00100000 /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2276A71D2010397D00100000 /* Homepage.storyboard */; };
+		2276A727201042AE00100000 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A726201042AE00100000 /* UIColor+Util.m */; };
+		2276A72E201045F700100000 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A72D201045F700100000 /* Utils.m */; };
+		2276A7312010505E00100000 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A7302010505E00100000 /* Config.m */; };
+		2276A7352010530500100000 /* HomePageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A7342010530400100000 /* HomePageHeadView.m */; };
+		2276A7382010556000100000 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A7372010556000100000 /* UIView+Util.m */; };
+		2276A73C2010639F00100000 /* QuartzCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A73B2010639F00100000 /* QuartzCanvasView.m */; };
+		2276A74220106A2400100000 /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A74120106A2400100000 /* UINavigationBar+BackgroundColor.m */; };
+		2276A74720106D6E00100000 /* NewLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2276A74620106D6E00100000 /* NewLogin.storyboard */; };
+		2276A74A20106E3200100000 /* NewLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A74920106E3200100000 /* NewLoginViewController.m */; };
+		2276A74D201079CF00100000 /* AFHTTPRequestOperationManager+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A74C201079CF00100000 /* AFHTTPRequestOperationManager+Util.m */; };
+		5E6FBD56D3A497D4E9D9942C /* libPods-CloudFire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C5B89FD97F1623DCD93F05 /* libPods-CloudFire.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C5B89FD97F1623DCD93F05 /* libPods-CloudFire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudFire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		221DA9EC200F5466005CFAA8 /* CloudTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTabBarController.h; sourceTree = "<group>"; };
 		221DA9ED200F5466005CFAA8 /* CloudTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTabBarController.m; sourceTree = "<group>"; };
+		221DA9F0200F5A1F005CFAA8 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		221DA9F2200F5B1F005CFAA8 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		221DA9F3200F5B1F005CFAA8 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		2243A092200F361500A9C031 /* CloudFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2243A096200F361500A9C031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2243A098200F361500A9C031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +48,30 @@
 		2243A0A1200F361500A9C031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2243A0A6200F361500A9C031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2243A0AC200F439D00A9C031 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		2276A7172010371900100000 /* HomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageViewController.h; sourceTree = "<group>"; };
+		2276A7182010371900100000 /* HomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageViewController.m; sourceTree = "<group>"; };
+		2276A71D2010397D00100000 /* Homepage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = SOURCE_ROOT; };
+		2276A725201042AE00100000 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		2276A726201042AE00100000 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		2276A72C201045F700100000 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		2276A72D201045F700100000 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		2276A72F2010505E00100000 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		2276A7302010505E00100000 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		2276A7332010530400100000 /* HomePageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageHeadView.h; sourceTree = "<group>"; };
+		2276A7342010530400100000 /* HomePageHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageHeadView.m; sourceTree = "<group>"; };
+		2276A7362010556000100000 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		2276A7372010556000100000 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		2276A73A2010639F00100000 /* QuartzCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzCanvasView.h; sourceTree = "<group>"; };
+		2276A73B2010639F00100000 /* QuartzCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzCanvasView.m; sourceTree = "<group>"; };
+		2276A74020106A2400100000 /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		2276A74120106A2400100000 /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
+		2276A74620106D6E00100000 /* NewLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewLogin.storyboard; sourceTree = "<group>"; };
+		2276A74820106E3200100000 /* NewLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLoginViewController.h; sourceTree = "<group>"; };
+		2276A74920106E3200100000 /* NewLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLoginViewController.m; sourceTree = "<group>"; };
+		2276A74B201079CF00100000 /* AFHTTPRequestOperationManager+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+Util.h"; sourceTree = "<group>"; };
+		2276A74C201079CF00100000 /* AFHTTPRequestOperationManager+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+Util.m"; sourceTree = "<group>"; };
+		5908ADF5FC22CF01D5FF3AFF /* Pods-CloudFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire.release.xcconfig"; sourceTree = "<group>"; };
+		97F39D1A9BBD7ADBCCDE6848 /* Pods-CloudFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,12 +79,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6FBD56D3A497D4E9D9942C /* libPods-CloudFire.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E00FDFB0C13C712FBED85E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F39D1A9BBD7ADBCCDE6848 /* Pods-CloudFire.debug.xcconfig */,
+				5908ADF5FC22CF01D5FF3AFF /* Pods-CloudFire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		221DA9EA200F539D005CFAA8 /* MainModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,11 +112,23 @@
 			name = TabbarController;
 			sourceTree = "<group>";
 		};
+		221DA9EF200F59FC005CFAA8 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				221DA9F0200F5A1F005CFAA8 /* Discover.storyboard */,
+				221DA9F2200F5B1F005CFAA8 /* DiscoverViewController.h */,
+				221DA9F3200F5B1F005CFAA8 /* DiscoverViewController.m */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
 		2243A089200F361500A9C031 = {
 			isa = PBXGroup;
 			children = (
 				2243A094200F361500A9C031 /* CloudFire */,
 				2243A093200F361500A9C031 /* Products */,
+				17E00FDFB0C13C712FBED85E /* Pods */,
+				B302584FB9FF64A9A74660E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +143,12 @@
 		2243A094200F361500A9C031 /* CloudFire */ = {
 			isa = PBXGroup;
 			children = (
+				2276A74320106D3C00100000 /* GeneralModel */,
+				2276A7392010637700100000 /* Views */,
+				2276A7282010455700100000 /* Utils */,
+				2276A7242010422E00100000 /* Categories */,
+				2276A713201035A600100000 /* AboutMe */,
+				221DA9EF200F59FC005CFAA8 /* Discover */,
 				221DA9EA200F539D005CFAA8 /* MainModel */,
 				2243A098200F361500A9C031 /* AppDelegate.h */,
 				2243A099200F361500A9C031 /* AppDelegate.m */,
@@ -100,6 +171,103 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2276A713201035A600100000 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				2276A732201052D700100000 /* View */,
+				2276A71D2010397D00100000 /* Homepage.storyboard */,
+				2276A716201036ED00100000 /* Controller */,
+			);
+			name = AboutMe;
+			sourceTree = "<group>";
+		};
+		2276A716201036ED00100000 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2276A7172010371900100000 /* HomepageViewController.h */,
+				2276A7182010371900100000 /* HomepageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2276A7242010422E00100000 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2276A74020106A2400100000 /* UINavigationBar+BackgroundColor.h */,
+				2276A74120106A2400100000 /* UINavigationBar+BackgroundColor.m */,
+				2276A725201042AE00100000 /* UIColor+Util.h */,
+				2276A726201042AE00100000 /* UIColor+Util.m */,
+				2276A7362010556000100000 /* UIView+Util.h */,
+				2276A7372010556000100000 /* UIView+Util.m */,
+				2276A74B201079CF00100000 /* AFHTTPRequestOperationManager+Util.h */,
+				2276A74C201079CF00100000 /* AFHTTPRequestOperationManager+Util.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2276A7282010455700100000 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2276A72C201045F700100000 /* Utils.h */,
+				2276A72D201045F700100000 /* Utils.m */,
+				2276A72F2010505E00100000 /* Config.h */,
+				2276A7302010505E00100000 /* Config.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2276A732201052D700100000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2276A7332010530400100000 /* HomePageHeadView.h */,
+				2276A7342010530400100000 /* HomePageHeadView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2276A7392010637700100000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2276A73A2010639F00100000 /* QuartzCanvasView.h */,
+				2276A73B2010639F00100000 /* QuartzCanvasView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2276A74320106D3C00100000 /* GeneralModel */ = {
+			isa = PBXGroup;
+			children = (
+				2276A74420106D4700100000 /* Login&Register */,
+			);
+			path = GeneralModel;
+			sourceTree = "<group>";
+		};
+		2276A74420106D4700100000 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				2276A74520106D5600100000 /* Controller */,
+			);
+			name = "Login&Register";
+			sourceTree = "<group>";
+		};
+		2276A74520106D5600100000 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2276A74620106D6E00100000 /* NewLogin.storyboard */,
+				2276A74820106E3200100000 /* NewLoginViewController.h */,
+				2276A74920106E3200100000 /* NewLoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B302584FB9FF64A9A74660E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09C5B89FD97F1623DCD93F05 /* libPods-CloudFire.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2243A0A9200F361500A9C031 /* Build configuration list for PBXNativeTarget "CloudFire" */;
 			buildPhases = (
+				AE49310402518605EF76B9F0 /* [CP] Check Pods Manifest.lock */,
 				2243A08E200F361500A9C031 /* Sources */,
 				2243A08F200F361500A9C031 /* Frameworks */,
 				2243A090200F361500A9C031 /* Resources */,
+				58A9596C49381B768D1BCA9E /* [CP] Embed Pods Frameworks */,
+				4A3093F5ECF306627D38F4FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,21 +331,104 @@
 			buildActionMask = 2147483647;
 			files = (
 				2243A0AD200F439E00A9C031 /* Empty.xib in Resources */,
+				221DA9F1200F5A1F005CFAA8 /* Discover.storyboard in Resources */,
 				2243A0A2200F361500A9C031 /* Assets.xcassets in Resources */,
+				2276A71E2010397D00100000 /* Homepage.storyboard in Resources */,
 				2243A0A0200F361500A9C031 /* Main.storyboard in Resources */,
+				2276A74720106D6E00100000 /* NewLogin.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A3093F5ECF306627D38F4FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/UMSocialSDKResourcesNew.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSCommentDetailController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSCommentInputController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSCommentInputControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMShareEditViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMShareEditViewControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSLoginViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSnsAccountViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSShareListController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/en.lproj",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/zh-Hans.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A9596C49381B768D1BCA9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE49310402518605EF76B9F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudFire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2243A08E200F361500A9C031 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2276A7192010371900100000 /* HomepageViewController.m in Sources */,
+				221DA9F4200F5B1F005CFAA8 /* DiscoverViewController.m in Sources */,
+				2276A7352010530500100000 /* HomePageHeadView.m in Sources */,
 				2243A09D200F361500A9C031 /* ViewController.m in Sources */,
+				2276A72E201045F700100000 /* Utils.m in Sources */,
+				2276A727201042AE00100000 /* UIColor+Util.m in Sources */,
 				221DA9EE200F5466005CFAA8 /* CloudTabBarController.m in Sources */,
+				2276A73C2010639F00100000 /* QuartzCanvasView.m in Sources */,
+				2276A74D201079CF00100000 /* AFHTTPRequestOperationManager+Util.m in Sources */,
+				2276A74220106A2400100000 /* UINavigationBar+BackgroundColor.m in Sources */,
 				2243A09A200F361500A9C031 /* AppDelegate.m in Sources */,
+				2276A7382010556000100000 /* UIView+Util.m in Sources */,
+				2276A74A20106E3200100000 /* NewLoginViewController.m in Sources */,
+				2276A7312010505E00100000 /* Config.m in Sources */,
 				2243A097200F361500A9C031 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +539,7 @@
 		};
 		2243A0AA200F361500A9C031 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F39D1A9BBD7ADBCCDE6848 /* Pods-CloudFire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -298,6 +553,7 @@
 		};
 		2243A0AB200F361500A9C031 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5908ADF5FC22CF01D5FF3AFF /* Pods-CloudFire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

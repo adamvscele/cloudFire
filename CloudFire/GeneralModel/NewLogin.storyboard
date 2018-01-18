@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--New Login View Controller-->
+        <scene sceneID="uOW-vt-DAB">
+            <objects>
+                <viewController storyboardIdentifier="NewLoginViewController" id="gZm-BA-ggf" customClass="NewLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VGR-02-gT0"/>
+                        <viewControllerLayoutGuide type="bottom" id="uxy-If-rBG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J2H-QZ-xZA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_login" translatesAutoresizingMaskIntoConstraints="NO" id="MWG-cb-rbP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_osc" translatesAutoresizingMaskIntoConstraints="NO" id="qZZ-Hb-dbB">
+                                <rect key="frame" x="104" y="97" width="166" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="WiK-bo-exN"/>
+                                    <constraint firstAttribute="height" constant="54" id="jOH-NT-BYA"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqD-ft-rE8" userLabel="Move Button View">
+                                <rect key="frame" x="0.0" y="195" width="375" height="250"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dA2-EU-cFo" userLabel="UserName">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zIQ-BN-P4K" userLabel="PassWord">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="q9v-QD-oTi"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU2-3s-hJa" userLabel="Register Button">
+                                <rect key="frame" x="20" y="463" width="335" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="3ng-4F-1MF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qZZ-Hb-dbB" firstAttribute="top" secondItem="VGR-02-gT0" secondAttribute="bottom" constant="77" id="1d1-B5-NfZ"/>
+                            <constraint firstItem="qZZ-Hb-dbB" firstAttribute="centerX" secondItem="MWG-cb-rbP" secondAttribute="centerX" id="4IJ-zW-IrY"/>
+                            <constraint firstItem="EU2-3s-hJa" firstAttribute="top" secondItem="jqD-ft-rE8" secondAttribute="bottom" constant="18" id="4tE-n8-bVf"/>
+                            <constraint firstItem="jqD-ft-rE8" firstAttribute="top" secondItem="J2H-QZ-xZA" secondAttribute="top" constant="195" id="6F6-Su-xoD"/>
+                            <constraint firstItem="MWG-cb-rbP" firstAttribute="top" secondItem="J2H-QZ-xZA" secondAttribute="top" id="7L7-2o-Hx1"/>
+                            <constraint firstAttribute="trailing" secondItem="MWG-cb-rbP" secondAttribute="trailing" id="AcB-Dt-FZb"/>
+                            <constraint firstItem="jqD-ft-rE8" firstAttribute="leading" secondItem="J2H-QZ-xZA" secondAttribute="leading" id="Xuz-Rf-IWG"/>
+                            <constraint firstAttribute="trailing" secondItem="EU2-3s-hJa" secondAttribute="trailing" constant="20" id="YAB-je-27m"/>
+                            <constraint firstItem="MWG-cb-rbP" firstAttribute="leading" secondItem="J2H-QZ-xZA" secondAttribute="leading" id="aiG-Qa-GM3"/>
+                            <constraint firstAttribute="trailing" secondItem="jqD-ft-rE8" secondAttribute="trailing" id="f6g-UU-5Py"/>
+                            <constraint firstItem="EU2-3s-hJa" firstAttribute="leading" secondItem="J2H-QZ-xZA" secondAttribute="leading" constant="20" id="h0z-hu-y6w"/>
+                            <constraint firstItem="uxy-If-rBG" firstAttribute="top" secondItem="MWG-cb-rbP" secondAttribute="bottom" id="jDW-G7-4py"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IhS-oW-3zh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-549.60000000000002" y="-227.13643178410797"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_login" width="375" height="667"/>
+        <image name="logo_osc" width="167" height="56"/>
+    </resources>
+</document>
