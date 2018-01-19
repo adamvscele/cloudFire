@@ -28,6 +28,7 @@
 		2276A74720106D6E00100000 /* NewLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2276A74620106D6E00100000 /* NewLogin.storyboard */; };
 		2276A74A20106E3200100000 /* NewLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A74920106E3200100000 /* NewLoginViewController.m */; };
 		2276A74D201079CF00100000 /* AFHTTPRequestOperationManager+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276A74C201079CF00100000 /* AFHTTPRequestOperationManager+Util.m */; };
+		22B679DF2011DAF8007D7960 /* DDTcpClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B679DE2011DAF8007D7960 /* DDTcpClientManager.m */; };
 		5E6FBD56D3A497D4E9D9942C /* libPods-CloudFire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C5B89FD97F1623DCD93F05 /* libPods-CloudFire.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		2276A74920106E3200100000 /* NewLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLoginViewController.m; sourceTree = "<group>"; };
 		2276A74B201079CF00100000 /* AFHTTPRequestOperationManager+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+Util.h"; sourceTree = "<group>"; };
 		2276A74C201079CF00100000 /* AFHTTPRequestOperationManager+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+Util.m"; sourceTree = "<group>"; };
+		22B679DD2011DAF8007D7960 /* DDTcpClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTcpClientManager.h; sourceTree = "<group>"; };
+		22B679DE2011DAF8007D7960 /* DDTcpClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTcpClientManager.m; sourceTree = "<group>"; };
 		5908ADF5FC22CF01D5FF3AFF /* Pods-CloudFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire.release.xcconfig"; sourceTree = "<group>"; };
 		97F39D1A9BBD7ADBCCDE6848 /* Pods-CloudFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudFire/Pods-CloudFire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +146,7 @@
 		2243A094200F361500A9C031 /* CloudFire */ = {
 			isa = PBXGroup;
 			children = (
+				22B679D92011DA58007D7960 /* TCP */,
 				2276A74320106D3C00100000 /* GeneralModel */,
 				2276A7392010637700100000 /* Views */,
 				2276A7282010455700100000 /* Utils */,
@@ -258,6 +262,15 @@
 				2276A74920106E3200100000 /* NewLoginViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		22B679D92011DA58007D7960 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				22B679DD2011DAF8007D7960 /* DDTcpClientManager.h */,
+				22B679DE2011DAF8007D7960 /* DDTcpClientManager.m */,
+			);
+			name = TCP;
 			sourceTree = "<group>";
 		};
 		B302584FB9FF64A9A74660E5 /* Frameworks */ = {
@@ -423,6 +436,7 @@
 				2276A727201042AE00100000 /* UIColor+Util.m in Sources */,
 				221DA9EE200F5466005CFAA8 /* CloudTabBarController.m in Sources */,
 				2276A73C2010639F00100000 /* QuartzCanvasView.m in Sources */,
+				22B679DF2011DAF8007D7960 /* DDTcpClientManager.m in Sources */,
 				2276A74D201079CF00100000 /* AFHTTPRequestOperationManager+Util.m in Sources */,
 				2276A74220106A2400100000 /* UINavigationBar+BackgroundColor.m in Sources */,
 				2243A09A200F361500A9C031 /* AppDelegate.m in Sources */,

@@ -9,10 +9,18 @@
 #import "NewLoginViewController.h"
 
 @interface NewLoginViewController ()
+@property (nonatomic,weak) IBOutlet UIImageView *backImageView;
 
 @end
 
 @implementation NewLoginViewController
+-(IBAction)backAction:(id)sender{
+    _backImageView.transform = CGAffineTransformMakeRotation(-M_PI_2);
+    //[[UINavigationBar appearance] setTintColor:[UIColor blueColor]];
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
