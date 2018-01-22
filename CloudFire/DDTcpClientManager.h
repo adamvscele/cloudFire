@@ -10,13 +10,20 @@
 
 @interface DDTcpClientManager : NSObject<NSStreamDelegate>
 {
-    NSInputStream* _inputStream;
+    NSInputStream* _inStream;
     NSOutputStream* _outputStream;
+    
+    NSLock* _sendLock;
+    NSLock* _receiveLock;
+    NSMutableData* _receiveBuffer;
+    
+    BOOL _noDataSent;
 }
 
++(instancetype)instance;
 
 
 
 -(void)connect:(NSString *)ip port:(NSInteger) port status:(NSInteger)status;
-
+-(void)disconnect;
 @end
